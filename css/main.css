@@ -1,0 +1,62 @@
+body {
+  padding-top: 60px;
+}
+
+.navbar {
+  border-bottom: solid 1px white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #666666;
+}
+
+#logo-n {
+  background: url('../images/logo.png') no-repeat;
+  width: 60px;
+  height: 60px; 
+}
+
+.glyphicon-search {
+  font-size: 1.5em;
+}
+
+.glyphicon-map-marker {
+  font-size: 2em;
+}
+
+.navbar-right {
+  margin: 0px;
+  text-transform: none;
+  font-weight: 400;
+  font-size: 1.1em;
+  height: 50px;
+}
+
+.navbar-right li a {
+  height: 60px;
+  border-left: 1px solid #333333;
+}
+
+#first {
+  width: 175px;
+}
+
+#first img {
+  float: left;
+}
+
+#subscribe {
+  color: yellow;
+}
+
+#subscribe, #subscribe2 {
+  text-align: center;
+}
