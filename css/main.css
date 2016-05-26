@@ -2,6 +2,8 @@ body {
   padding-top: 60px;
 }
 
+/* NAVBAR */
+
 .navbar {
   border-bottom: solid 1px white;
   font-family: sans-serif;
@@ -59,4 +61,92 @@ body {
 
 #subscribe, #subscribe2 {
   text-align: center;
+}
+
+/* MAIN SECTION */
+
+.no-gutter > [class*='col-'] {
+  padding-left:0;
+}
+
+#main1 {
+  border-bottom: 1px solid #E5E5E5;
+}
+
+#main1 img {
+  border-bottom: 3px solid red;
+}
+
+.main2 {
+  width: 36%;
+  padding: 15px;
+  margin: 20px 10px;
+  float: left;
+}
+
+.section a {
+  color: #FF0500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.first a {
+  color: #181818;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.caption .text {
+  color: #181818;
+  font-family: "times new roman";
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  padding: 0 40px;
+}
+
+.second a {
+  color: #181818;
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 0 40px;
+}
+
+.main2 .caption .text {
+  color: #181818;
+  font-family: "times new roman";
+  display: block;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .main2 {
+    width: 98%;
+    padding: 15px;
+  }
+  
+  #main1 .caption .text {
+    color: #181818;
+    font-family: "times new roman";
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0 20px;
+  }
+  
+  .first a {
+    font-size: 24px;
+  }
 }
